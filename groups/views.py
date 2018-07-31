@@ -9,6 +9,7 @@ from group.models import Group, GroupMember
 class CreateGroup(LoginRequiredMixin, generic.CreateView):
     # Creating a group
     fields = ('name', 'description')
+    # Connecting to the model
     model = Group
 
 
