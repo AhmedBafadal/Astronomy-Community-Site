@@ -1,6 +1,15 @@
-<!DOCTYPE html>
-{% extends 'base.html' %}
-{% block body_content %}
+<!DOCTYPE html> {% extends 'base.html' %} {% block content %}
+<div class="container">
+<h1>Welcome to Astro Space!</h1>
+<h2>The best community for all things on outer space!</h2>
 
-<h1>Welcome to the Online Astro Space Hub!</h1>
-{% endblock %}
+{% if user.is_authenticated %}
+<h4>
+    <a href="{% url 'groups:all'%}">Go to Groups</a>
+</h4>
+{% else %}
+<h4><a href="{% url 'accounts:login' %}">Login</a> or <a href="{% url 'accounts:signup' %}">Sign-up</a> for free to get started.</h4>
+
+</div>
+{% endif %} {% endblock %}
+
