@@ -1,6 +1,8 @@
 
 # Astro-Space.com
 
+
+
 ## Description
 
 An astronomy community site developed with Python using the Django webframework, as well as HTML, CSS and Javascript.
@@ -8,6 +10,7 @@ An astronomy community site developed with Python using the Django webframework,
 The 'Astro-Space' web app enables registered users create their own groups to publish posts on various topics related to space and astronomy (e.g. SpaceX,NASA, Pluto) as well as subscribe to existing groups and view posts submitted by others.
 
 All posts are timestamped, and users can publish and delete posts on any existing group, as well as leave and join the respective groups at any time.
+
 
 
 ## Implementation
@@ -19,6 +22,7 @@ Users are identified by an '@' handle, and clicking the user's hyperlink display
 Once registered, clicking 'Post' on the navigation bar enables the user to publish a new post within any existing group. 
 
 Clicking 'Groups' enables the user to view an interactive list of all existing groups, including a count of the number of members and posts published within each group, as well as the option to create a new group. Within the 'Groups' page, logged in users can also click on their own username to gain access to their own post history.
+
 
 
 ## Installation
