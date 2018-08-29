@@ -5,7 +5,7 @@
 
 ## Description
 
-An astronomy community site developed with Python using the Django webframework, as well as HTML, CSS and Javascript.
+An astronomy community site developed with Python using the Django web framework, as well as HTML, CSS and Javascript.
 
 The 'Astro-Space' web app enables registered users create their own groups to publish posts on various topics related to space and astronomy (e.g. SpaceX,NASA, Pluto) as well as subscribe to existing groups and view posts submitted by others.
 
